@@ -16,9 +16,3 @@ provider "aws" {
   access_key = var.access_key
   secret_key = var.secret_key
 }
-
-#S3 Bucket Configuration
-resource "aws_s3_bucket" "terraform-cloud-test" {
-
-
-}
